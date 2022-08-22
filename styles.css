@@ -384,7 +384,7 @@ template {
   --accent-text-color: #f2d3d9;
   --accent-button-bg-color: #bdbe25;
   --accent-button-bg-color-dark: #91911c;
-  --accent-button-text-color: #ffffff;
+  --accent-button-text-color: #000000;
 
   /* https://www.htmlcsscolor.com/hex/E6D6CF */
   /* #bdbe25 */
@@ -816,11 +816,15 @@ body {
   padding: 1rem 0;
 }
 
+.dividing-line-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media only screen and (max-width: 800px) {
   .dividing-line-img {
     width: 90%;
-    -o-object-fit: cover;
-       object-fit: cover;
   }
 }
 
@@ -851,6 +855,7 @@ body {
 
 .footer-nav-link {
   color: var(--footer-text-color);
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 800px) {
