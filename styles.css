@@ -13,6 +13,7 @@
   border-radius: 1rem;
   padding: 1rem;
   border: 8px solid var(--accent-button-bg-color-dark);
+  white-space: nowrap;
 }
 
 .button:hover {
@@ -798,6 +799,7 @@ body {
   border-radius: 1rem;
   padding: 1rem;
   border: 8px solid var(--accent-button-bg-color-dark);
+  white-space: nowrap;
 }
 
 .inquiry-button:hover {
@@ -855,12 +857,22 @@ body {
 
 .footer-nav-link {
   color: var(--footer-text-color);
-  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 800px) {
+  .footer-title-main {
+    font-size: 2.1rem;
+  }
   .footer-content {
     margin: 2rem 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-nav {
+    text-align: center;
+  }
+  .footer-nav-link {
+    font-size: 2.1rem;
   }
 }
 
