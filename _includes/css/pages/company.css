@@ -1,0 +1,21 @@
+.company {
+  display: flex;
+  background-color: white;
+  border-radius: 2rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.company-logo {
+  width: 300px;
+}
+
+.company-info dt {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  .company {
+    flex-direction: column;
+  }
+}

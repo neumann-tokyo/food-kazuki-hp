@@ -1,0 +1,122 @@
+---
+title: 作品紹介
+layout: layouts/main.njk
+---
+
+<div class="illustrations">
+  <h2>作品紹介</h2>
+  <div class="illustrations-items">
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/001.jpg",
+        id: "001"
+      }) | safe
+    }}
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/002.jpg",
+        id: "002"
+      }) | safe
+    }}
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/003.jpg",
+        id: "003"
+      }) | safe
+    }}
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/004.jpg",
+        id: "004"
+      }) | safe
+    }}
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/005.jpg",
+        id: "005"
+      }) | safe
+    }}
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/006.jpg",
+        id: "006"
+      }) | safe
+    }}
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/007.jpg",
+        id: "007"
+      }) | safe
+    }}
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/008.jpg",
+        id: "008"
+      }) | safe
+    }}
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/009.jpg",
+        id: "009"
+      }) | safe
+    }}
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/010.jpg",
+        id: "010"
+      }) | safe
+    }}
+    {{
+      comp.imageModal({
+        src: "/img/illustrations/011.jpg",
+        id: "011"
+      }) | safe
+    }}
+  </div>
+
+  {{ comp.dividingLine() | safe }}
+
+  <h2>SNS・ブログ</h2>
+  <div>
+    <p>
+      より多くのイラストをSNSやブログで公開しておりますのでこちらもご参照ください。
+    </p>
+    <div class="sns-cards">
+      <a
+        class="sns-card"
+        href="https://www.instagram.com/kbaba1001/"
+        target="_blank"
+      >
+        <img
+          src="/img/sns/instagram.png"
+          alt="instagram"
+          class="sns-card-image"
+          loading="lazy"
+        />
+        <span>Instagram</span>
+      </a>
+      <a class="sns-card" href="https://twitter.com/FoodKazuki" target="_blank">
+        <img
+          src="/img/sns/twitter.png"
+          alt="twitter"
+          class="sns-card-image"
+          loading="lazy"
+        />
+        <span>Twitter</span>
+      </a>
+      <a
+        class="sns-card"
+        href="https://food-kazuki.hatenadiary.com"
+        target="_blank"
+      >
+        <img
+          src="/img/sns/hatena-blog.png"
+          alt="hatena blog"
+          class="sns-card-image"
+          loading="lazy"
+        />
+        <span>Hatena Blog</span>
+      </a>
+    </div>
+  </div>
+</div>

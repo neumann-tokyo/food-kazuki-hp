@@ -1,0 +1,108 @@
+---
+title: 制作プラン
+layout: layouts/main.njk
+---
+
+<div class="plans">
+  <h2>制作プラン</h2>
+  <p>
+    お客様のご要望に合わせて様々なプランを用意しております。プランにない物でも対応可能な場合がありますのでお気軽にご相談ください。
+  </p>
+
+  <a name="menu"></a>
+  <h3 class="plans-title">
+    <a href="#menu" class="plans-title-link">メニューまるごと制作プラン</a>
+  </h3>
+  <div class="plans-box">
+    <!-- TODO 画像変える -->
+    <img
+      src="/img/kaki.png"
+      alt="menu"
+      class="plans-box-image"
+      loading="lazy"
+    />
+    <div class="plans-box-description">
+      イラストを納品するのではなくメニューを製本して納品するプランです。
+      <br />
+      <br />
+      <b>こんな方におすすめです！</b>
+      <ul>
+        <li>
+          メニューを制作したいけどデザインの経験がないのでまるごとお願いしたい
+        </li>
+        <li>メニューのデザインを相談しながら決めたい</li>
+        <li>イラストだけ渡されても困る</li>
+        <li>印刷所選びや製本の方法などがよくわからない</li>
+      </ul>
+      イラストの大きさや数、メニューのページ数などにより金額が変わります。
+      ご要望に合わせてお見積りいたします。
+    </div>
+    <div class="plans-box-price">￥100,000〜</div>
+  </div>
+  <div class="plans-inquiry-container">
+    {{ comp.inquiryButton() | safe }}
+  </div>
+
+  <a name="dm"></a>
+  <h3 class="plans-title">
+    <a href="#dm" class="plans-title-link"> チラシ・DM制作プラン </a>
+  </h3>
+  <div class="plans-box">
+    <!-- TODO 画像変える -->
+    <img
+      src="/img/beer.png"
+      alt="menu"
+      class="plans-box-image"
+      loading="lazy"
+    />
+    <div class="plans-box-description">
+      チラシやDMをイラストだけでなくデザインも含めて制作・納品するプランです。
+      <br />
+      <br />
+      <b>こんな方におすすめです！</b>
+      <ul>
+        <li>
+          チラシやDMを作成したいけどデザインの経験がないのでまるごとお願いしたい
+        </li>
+        <li>デザインを相談しながら決めたい</li>
+        <li>印刷所選びがよくわからないのでイラストだけ渡されても困る</li>
+      </ul>
+      イラストの大きさや数、発行枚数などにより金額が変わります。
+      ご要望に合わせてお見積りいたします。
+    </div>
+    <div class="plans-box-price">￥50,000〜</div>
+  </div>
+  <div class="plans-inquiry-container">
+    {{ comp.inquiryButton() | safe }}
+  </div>
+
+  <a name="illust"></a>
+  <h3 class="plans-title">
+    <a href="#illust" class="plans-title-link"> イラストのみ制作プラン </a>
+  </h3>
+  <div class="plans-box">
+    <!-- TODO 画像変える -->
+    <img
+      src="/img/takoyaki.png"
+      alt="menu"
+      class="plans-box-image"
+      loading="lazy"
+    />
+    <div class="plans-box-description">
+      イラストのみ制作するプランです。データまたは原画での納品となります。
+      <br />
+      <br />
+      <b>こんな方におすすめです！</b>
+      <ul>
+        <li>デザインは別途行うのでイラストのみ欲しい方</li>
+        <li>絵を飾りたい方</li>
+      </ul>
+      イラストの大きさや数などにより金額が変わります。
+      ご要望に合わせてお見積りいたします。
+    </div>
+    <div class="plans-box-price">￥3,000〜</div>
+  </div>
+  <div class="plans-inquiry-container">
+    {{ comp.inquiryButton() | safe }}
+  </div>
+</div>

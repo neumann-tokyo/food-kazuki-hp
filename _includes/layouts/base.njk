@@ -1,0 +1,70 @@
+---
+description: 料理イラスト専門のイラストレーターばばかずきのホームページです。飲食店の皆様、一般のお客様、料理イラストに関することなら何でもお任せください！
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6MNY0P41PX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6MNY0P41PX");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta name="keywords" content="静岡県三島市,料理イラスト,飲食店,デザイン" />
+    <meta name="author" content="合同会社ノイマン馬場一樹" />
+    <meta
+      property="og:title"
+      content="料理イラストレーター ばば かずき - {{ title }}"
+    />
+    <meta property="og:url" content="https://food.kbaba1001.com" />
+    <meta
+      property="og:image"
+      content="https://food.kbaba1001.com/img/illustrations/002.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="description" content="{{ description }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <title>料理イラストレーター ばば かずき - {{ title }}</title>
+  </head>
+  <body class="layout">
+    {{ content | safe }}
+  </body>
+</html>

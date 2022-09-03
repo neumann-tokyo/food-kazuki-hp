@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+---
+
+<header class="layout-header">
+  <div class="header">
+    {{ comp.headerTitle() | safe }}
+    <video autoplay muted loop class="top-video">
+      <source src="/img/matome.mp4" type="video/mp4" />
+    </video>
+    <div class="header-nav-container">
+      {{ comp.headerNav() | safe }}
+    </div>
+  </div>
+</header>
+<div class="layout-main">
+  <main class="layout-main-center">{{ content | safe }}</main>
+</div>
+<footer class="layout-footer">
+  <div class="footer">
+    {{ comp.footer() | safe }}
+  </div>
+</footer>

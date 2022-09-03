@@ -1,0 +1,105 @@
+---
+layout: layouts/top.njk
+title: TOP
+---
+
+<div class="top">
+  <div class="top-strong-point-conteiner">
+    <h2 class="top-title">飲食店の皆様！一般のお客様！</h2>
+    <ul class="top-strong-points">
+      <li class="top-strong-point"><span>メニュー</span></li>
+      <li class="top-strong-point">名刺</li>
+      <li class="top-strong-point">ポスター</li>
+      <li class="top-strong-point">広告・DM</li>
+    </ul>
+    <p class="top-description">
+      料理イラストに関することなら何でもお任せください！
+      <br />
+      お見積り・ご相談はこちらから
+    </p>
+    <div class="top-inquiry-conteiner">{{ comp.inquiryButton() | safe }}</div>
+  </div>
+
+  {{ comp.dividingLine() | safe }}
+
+  <div class="top-strong-point2">
+    <h2 class="top-title">料理イラストの強み</h2>
+    <div class="top-strong-point2-container">
+      <div class="top-strong-point2-card">
+        <div class="top-strong-point2-card-img-container">
+          <img
+            src="/img/beer.png"
+            alt="beer"
+            loading="lazy"
+            class="top-strong-point2-card-img"
+          />
+        </div>
+        <div class="top-strong-point2-card-text">
+          <h3 class="top-strong-point2-card-title">
+            個性を出して他店と差別化！
+          </h3>
+          <p class="top-strong-point2-card-description">
+            メニューやポスターに料理の写真を使うお店は多いですが、料理イラストを使っているお店は珍しいです。
+            <br />
+            イラストならではの暖かい雰囲気でお店をおしゃれに飾りませんか？
+          </p>
+        </div>
+      </div>
+      <div class="top-strong-point2-card-reverse">
+        <div class="top-strong-point2-card-img-container">
+          <img
+            src="/img/takoyaki.png"
+            alt="beer"
+            loading="lazy"
+            class="top-strong-point2-card-img"
+          />
+        </div>
+        <div class="top-strong-point2-card-text">
+          <h3 class="top-strong-point2-card-title">
+            写真とはひとあじ違う雰囲気！
+          </h3>
+          <p class="top-strong-point2-card-description">
+            写真よりも暖かい印象を与え、料理の美味しさをアピールします。
+            写真では難しい、湯気や光の表現もイラストならお手の物！
+          </p>
+        </div>
+      </div>
+      <div class="top-strong-point2-card">
+        <div class="top-strong-point2-card-img-container">
+          <img
+            src="/img/kaki.png"
+            alt="beer"
+            loading="lazy"
+            class="top-strong-point2-card-img"
+          />
+        </div>
+        <div class="top-strong-point2-card-text">
+          <h3 class="top-strong-point2-card-title">
+            リアルからラフな絵まで調整可能！
+          </h3>
+          <p class="top-strong-point2-card-description">
+            写実的で細密な絵からイメージに近いラフな表現までご希望に合わせて調整できます。
+            ぜひご相談ください！
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{ comp.dividingLine() | safe }}
+
+  <div class="top-plans">
+    <h2 class="top-title">様々なプランを用意してあります</h2>
+    <ul class="top-plans-list">
+      <li class="top-plans-list-item">メニューまるごと制作プラン</li>
+      <li class="top-plans-list-item">チラシ・DM制作プラン</li>
+      <li class="top-plans-list-item">イラストのみ制作プラン</li>
+    </ul>
+    <p class="top-description">
+      ご希望・用途にあわせて柔軟に対応します。ぜひご相談ください。
+    </p>
+    <div class="button-container">
+      <a class="button" href="/plans">プラン詳細はこちら</a>
+    </div>
+  </div>
+</div>

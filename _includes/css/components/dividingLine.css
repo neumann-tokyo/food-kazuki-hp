@@ -1,0 +1,16 @@
+.dividing-line-container {
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+.dividing-line-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  .dividing-line-img {
+    width: 90%;
+  }
+}

@@ -1,0 +1,29 @@
+:root {
+  --contents-width: 1000px;
+
+  --main-text-color: #262422;
+  --main-bg-color: #e6d6cf;
+  --header-bg-color: #262422;
+  --header-text-color: #fcf9f9;
+  --footer-bg-color: #fcf9f9;
+  --footer-text-color: #262422;
+  --accent-bg-color: #be2543;
+  --accent-bg-color-dark: #941c34;
+  --accent-text-color: #f2d3d9;
+  --accent-button-bg-color: #bdbe25;
+  --accent-button-bg-color-dark: #91911c;
+  --accent-button-text-color: #000000;
+
+  /* https://www.htmlcsscolor.com/hex/E6D6CF */
+  /* #bdbe25 */
+  /* #2580be */
+  /* https://imagecolorpicker.com/color-code/be2543 */
+
+  --accent-font: "Kaisei Decol";
+  --regular-font: "Zen Maru Gothic";
+}
+
+body {
+  font-family: var(--regular-font), sans-serif;
+  font-size: 1.2rem;
+}

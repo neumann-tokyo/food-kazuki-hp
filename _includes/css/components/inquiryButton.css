@@ -1,0 +1,21 @@
+.inquiry-button {
+  font-family: var(--accent-font);
+  font-size: 2rem;
+  background-color: var(--accent-button-bg-color);
+  color: var(--accent-button-text-color);
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 8px solid var(--accent-button-bg-color-dark);
+  white-space: nowrap;
+}
+
+.inquiry-button:hover {
+  filter: brightness(85%);
+}
+
+@media only screen and (max-width: 800px) {
+  .inquiry-button {
+    font-size: 1.5rem;
+  }
+}
