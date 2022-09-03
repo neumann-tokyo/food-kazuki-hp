@@ -17,5 +17,6 @@ site.use(terser());
 site.use(parcelCss());
 site.copy("img");
 site.copy("site.webmanifest");
+site.copy("CNAME");
 
 export default site;
